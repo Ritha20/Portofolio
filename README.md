@@ -26,9 +26,7 @@ A personal portfolio website built with **HTML** and **Tailwind CSS** to showcas
 
 ##  Live Demo  
 
-👉 [View Portfolio](https://your-link-here.com)  
+> [View Portfolio](https://ritha20.github.io/Portofolio/)  
 
----
-
-## 📂 Project Structure  
+---  
 
