@@ -6,26 +6,35 @@
     <title>Portofolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-slate-900">
+<body class="bg-slate-50 text-gray-600">
     <!-- Header part -->
-    <header class="flex items-center justify-between px-4 sm:px-8 lg:px-20 py-4 sm:py-6 lg:py-12 bg-slate-950 text-white" >
-        <h1 class="text-xl font-bold text-blue-600">Ritha</h1>
-        <nav>
-            
-            <ul class="flex gap-9">
-                <li class="hover:text-blue-400 px-5 py-3 mx-1 active"><a href="#Home">Home</a></li>
-                <li class="hover:text-blue-400 px-5 py-3 mx-1"><a href="#About Me">About Me</a></li>
-                <li class="hover:text-blue-400 px-5 py-3 mx-1"><a href="Services">Services</a></li>
-                <li class="hover:text-blue-400 px-5 py-3 mx-1"><a href="Contact">Contact</a></li>
+    <header class="fixed top-0 w-full bg-white backdrop-blur-sm z-50 border-b border-gray-200" >
+        <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+            <p class=" font-serif text-xl font-bold text-gray-600">Ritha</p> 
+            <ul class="flex space-x-8 ">
+                <li class="hover:text-green-700 transition-colors"><a href="#Home">Home</a></li>
+                <li class="hover:text-green-700 transition-colors"><a href="#About Me">About Me</a></li>
+                <li class="hover:text-green-700 transition-colors"><a href="#Portofolio">Portofolio</a></li>
+                <li Class="hover:text-green-700 transition-colors"><a href="#Skills">Skills</a></li>
+                <li class="hover:text-green-700 transition-colors"><a href="#Contact">Contact</a></li>
             </ul>
+        </div>
         </nav>
     </header>
     <!-- Hero Section -->
     <Section id="Home" class="pt-24 pb-16 px-20 min-h-screen flex ">
         <div class="pt-13 w-full lg:w-auto transition-all-duration-500 py-32">
-            <p class="text-3xl text-white xxs:text-xl sm:max-xl:text-5xl xl:text-6xl font-serif w-full" >Hello, I'm Ritha</p>
-            <p class="mt-6 text-gray-400">I'm a front-end Developer and Data Analyst <br>I design, code, and analyze data to create user-friendly and insightful experiences.</p>
+            <p class="text-3xl xxs:text-xl sm:max-xl:text-5xl xl:text-6xl font-serif w-full" >Hello, I'm Ritha</p>
+            <p class="mt-6">I'm a front-end Developer and Data Analyst <br>I design, code, and analyze data to create user-friendly and insightful experiences.</p>
+          <img src="/Users/nono/Desktop/img.jpg" class="">  
+          <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="#Portofolio" class="bg-green-800 rounded-lg px-8 py-3 hover:bg-green-700 tarnsition colors font-semibold text-white">View My Work</a>
+            <a href="#Contact" class="text-green-800 border-2 border-primary px-8 py-3 hover:bg-green-800 hover:text-white rounded-lg font-semibold transition colors">Get In Touch</a>
+          </div>
+        
         </div>
+        
     </Section>
 </body>
 </html>
