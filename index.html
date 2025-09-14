@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,8 @@
             <div class="flex justify-between items-center py-4">
             <p class=" font-serif text-xl font-bold text-gray-600">Ritha</p> 
             <ul class="flex space-x-8 ">
-                <li class="hover:text-green-700 transition-colors"><a href="#Home">Home</a></li>
-                <li class="hover:text-green-700 transition-colors"><a href="#About Me">About Me</a></li>
+                <li class="hover:text-green-700 transition-colors"><a href="#">Home</a></li>
+                <li class="hover:text-green-700 transition-colors"><a href="#AboutMe">About Me</a></li>
                 <li class="hover:text-green-700 transition-colors"><a href="#Portofolio">Portofolio</a></li>
                 <li Class="hover:text-green-700 transition-colors"><a href="#Skills">Skills</a></li>
                 <li class="hover:text-green-700 transition-colors"><a href="#Contact">Contact</a></li>
@@ -27,14 +27,233 @@
         <div class="pt-13 w-full lg:w-auto transition-all-duration-500 py-32">
             <p class="text-3xl xxs:text-xl sm:max-xl:text-5xl xl:text-6xl font-serif w-full" >Hello, I'm Ritha</p>
             <p class="mt-6">I'm a front-end Developer and Data Analyst <br>I design, code, and analyze data to create user-friendly and insightful experiences.</p>
-          <img src="/Users/nono/Desktop/img.jpg" class="">  
+          <img src="./images/img.jpg" class="rounded-lg shadow-lg w-96 h-auto">  
           <div class="mt-10 flex flex-col sm:flex-row gap-4">
-            <a href="#Portofolio" class="bg-green-800 rounded-lg px-8 py-3 hover:bg-green-700 tarnsition colors font-semibold text-white">View My Work</a>
+            <a href="#Portofolio" class="bg-green-800 rounded-lg px-8 py-3 hover:bg-green-700 transition colors font-semibold text-white">View My Work</a>
             <a href="#Contact" class="text-green-800 border-2 border-primary px-8 py-3 hover:bg-green-800 hover:text-white rounded-lg font-semibold transition colors">Get In Touch</a>
           </div>
         
         </div>
         
     </Section>
+    <!-- About Section -->
+    <section id="AboutMe" class="pt-5 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-4xl md:text-5xl font-bold text-gray-600 font-serif mb-6">About Me</h2>
+                <p class="text-l text-gray-600 max-w-3xl mx-auto text-pretty">
+                    From analyzing complex statistical models to crafting intuitive user experiences
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div class="space-y-6">
+                    <div class="bg-neutral p-6 rounded-lg">
+                        <h3 class="font-heading text-2xl font-bold text-gray-600 font-serif mb-4">My Journey</h3>
+                        <p class="text-gray-600 leading-relaxed bg-slate-100 p-5 border-rounded">
+                            I graduated with a Bachelor degree in Statistics Major Actuarial Science, 
+                            where I developed a strong foundation in data analysis, mathematical modeling, 
+                            and problem-solving. This analytical mindset naturally led me to 
+                            frontend development, where I discovered my passion for creating beautiful, 
+                            user-centered digital experiences.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-neutral-light p-8 rounded">
+                        <h3 class="font-heading text-xl font-bold text-gray-600 font-serif mb-4 rounded">My Contibution</h3>
+                        <p class="text-gray-600 leading-relaxed rounded p-5 bg-slate-100">
+                            My unique background allows me to approach frontend development 
+                            with a data-driven perspective. I excel at creating interfaces that not only 
+                            look great but also perform optimally, backed by analytical insights 
+                            and user behavior understanding.
+                        </p>
+                    </div>
+                </div>
+            <div class="bg-green-800 p-8 rounded-lg text-white">
+                    <h3 class="font-heading text-2xl font-bold mb-6">Core Values</h3>
+                    <div class="space-y-2">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <span>Data-driven decision making</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <span>User-centered design approach</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <span>Clean, maintainable code</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <span>Continuous learning mindset</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-white rounded-full"></div>
+                            <span>Performance optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+  <!-- Mental Heath Dashboard -->
+  <section id="Portofolio" class="py-12" >
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-10">
+            <h2 class="font-heading text-4xl md:text-5xl font-bold font-serif text-gray-600 mb-6">My Portfolio</h2>
+            <p class="text-xl text-neutral-dark/80 max-w-3xl mx-auto font-serif text-pretty">
+                A showcase of projects that blend analytical thinking with creative frontend solutions
+            </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
+                <div class="h-48 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                    <img src="./images/Mental Health Dashboard.jpg" >
+                </div>
+                <div class="p-6">
+                    <h3 class="font-heading text-xl font-bold text-gray-600 mb-3">Data Visualization Dashboard</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Interactive dashboard built with React.js and python, showcasing Mental health statistical data of Teenagers in Rwanda and their solution, responsive charts and graphs.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">React.js</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">python</span>
+                        
+                    </div>
+                    <div class="flex gap-20">
+                        <a href="https://hackfuturehealth.netlify.app/" class="text-green-700 font-semibold">Live Demo</a>
+                        <a href="https://github.com/Ritha20/hello_jim" class="text-green-700 font-semibold">GitHub</a>
+                    </div>
+                </div>
+            </div>
+      <!-- My Hackathon Certificate -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
+                <div class="h-48 bg-gradient-to-br from-secondary to-primary flex items-center justify-center">
+                    <img src="./images/IMAGe.jpg" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <h3 class="font-heading text-xl font-bold text-neutral-dark mb-3">Hackathon Winner</h3>
+                    <p class="text-gray-600 mb-2 leading-relaxed h-32">
+                        Completed 5 days of Data of training and mentorship in Data Science techniques to turn complex datasets into actioanble inssights.</p>
+                    </div>
+                </div>
+            </div>
+
+  </section>
+<section>
+    <!-- Skills section -->
+    <section id="Skills" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-4xl md:text-5xl font-bold font-serif text-gray-600 mb-6">Skills & Expertise</h2>
+                <p class="text-xl text-neutral-dark/80 max-w-3xl mx-auto font-serif text-pretty">
+                    Technical Development Skills and Analytical skills I Excel
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Frontend Skills -->
+                <div class="bg-neutral-light p-8 rounded-lg">
+                    <h3 class="font-heading text-2xl font-bold text-neutral-dark mb-6">Frontend Development</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">HTML</span>
+                                <span class="text-black">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Javascript</span>
+                                <span class="text-black">65%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">CSS/Tailwind CSS</span>
+                                <span class="text-black">88%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Next.js</span>
+                                <span class="text-black">75%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytical Skills -->
+                <div class=" p-8 rounded-lg text-gray-600">
+                    <h3 class="font-heading text-2xl font-bold mb-6">Analytical & Data Skills</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Statistical Analysis</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="w-full bg-white/20 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Data Visualization</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="w-full bg-white/20 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Python/R</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="w-full bg-white/20 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Actuarial Modeling</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="w-full bg-white/20 rounded-full h-2">
+                                <div class="bg-green-800 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="mt-12 text-center">
+                <h3 class="font-heading text-2xl font-bold text-neutral-dark font-serif mb-8">Tools & Technologies</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-neutral-light px-4 py-2 rounded-full text-neutral-dark font-semibold">Git & GitHub</span>
+                    <span class="bg-neutral-light px-4 py-2 rounded-full text-neutral-dark font-semibold">VS Code</span>
+                    <span class="bg-neutral-light px-4 py-2 rounded-full text-neutral-dark font-semibold">PostgreSQL</span>
+                    <span class="bg-neutral-light px-4 py-2 rounded-full text-neutral-dark font-semibold">Excel/SPSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
 </body>
 </html>
